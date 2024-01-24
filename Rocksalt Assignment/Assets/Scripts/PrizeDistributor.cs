@@ -47,7 +47,7 @@ public class PrizeDistributor : MonoBehaviour
             }
             if (iconCount[i] == 3)
             {
-                currentScore += 3 * (prizeValues[i] + prizeValues[i] + prizeValues[i]);
+                currentScore += 4 * (prizeValues[i] + prizeValues[i]);
                 StartCoroutine(DisplayJackpot());
                 //Call jackpot display function
             }
@@ -81,19 +81,19 @@ public class PrizeDistributor : MonoBehaviour
         Debug.Log("Calculating...");
         switch (x)
         {
-            case ("cherry"):
+            case ("bar"):
                 cherryCount++;
                 iconCount[0]++;
                 break;
-            case ("bar"):
+            case ("cherry"):
                 barCount++;
                 iconCount[1]++;
                 break;
-            case ("grape"):
+            case ("bell"):
                 grapeCount++;
                 iconCount[2]++;
                 break;
-            case ("bell"):
+            case ("grape"):
                 bellCount++;
                 iconCount[3]++;
                 break;

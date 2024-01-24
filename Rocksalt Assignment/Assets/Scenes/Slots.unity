@@ -502,7 +502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -641, y: -240}
+  m_AnchoredPosition: {x: -645, y: -232}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809045546
@@ -713,6 +713,22 @@ PrefabInstance:
     - target: {fileID: 3613507477787302493, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
       propertyPath: m_Color.r
       value: 0.16673517
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613507477787302493, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
+      propertyPath: m_RaycastPadding.w
+      value: 8.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613507477787302493, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
+      propertyPath: m_RaycastPadding.x
+      value: 8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613507477787302493, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
+      propertyPath: m_RaycastPadding.y
+      value: 8.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613507477787302493, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
+      propertyPath: m_RaycastPadding.z
+      value: 8.67
       objectReference: {fileID: 0}
     - target: {fileID: 4267148943511289076, guid: 496e8145cdf67fc4eaed55470c119785, type: 3}
       propertyPath: m_Pivot.x
@@ -979,10 +995,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1321,10 +1337,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1509,6 +1525,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot Machine Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2138652927699417572, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_RaycastPadding.w
+      value: 8.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138652927699417572, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_RaycastPadding.x
+      value: 8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138652927699417572, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_RaycastPadding.y
+      value: 8.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2138652927699417572, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_RaycastPadding.z
+      value: 8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349806849823481724, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3787634584409382884, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1597,6 +1633,54 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1923303494}
+    - target: {fileID: 5076592187068825744, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_margin.w
+      value: -1.4114391
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076592187068825744, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_margin.x
+      value: 0.5918884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076592187068825744, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_margin.y
+      value: 0.53555965
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076592187068825744, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_margin.z
+      value: 0.96155155
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 185.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 39.248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.56445
+      objectReference: {fileID: 0}
+    - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.9071
+      objectReference: {fileID: 0}
     - target: {fileID: 9145019003132663927, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: firstRow
       value: 
