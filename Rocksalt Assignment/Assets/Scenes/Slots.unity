@@ -1087,7 +1087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 24.599976, y: -10.200012}
+  m_AnchoredPosition: {x: 24.599976, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1385164710
@@ -1510,7 +1510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 24.599976, y: -10.200012}
+  m_AnchoredPosition: {x: 24.599976, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!1001 &4896118464071984542
@@ -1524,6 +1524,14 @@ PrefabInstance:
     - target: {fileID: 509312914820089353, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: m_Name
       value: Slot Machine Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494123315622174541, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494123315622174541, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 209
       objectReference: {fileID: 0}
     - target: {fileID: 2138652927699417572, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: m_RaycastPadding.w
@@ -1680,6 +1688,10 @@ PrefabInstance:
     - target: {fileID: 6348518002306364597, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.9071
+      objectReference: {fileID: 0}
+    - target: {fileID: 8286119078116368858, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9145019003132663927, guid: 5c22e6c7146d4754bba7fac9ad32d64e, type: 3}
       propertyPath: firstRow
